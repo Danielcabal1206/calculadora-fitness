@@ -1,0 +1,138 @@
+*{
+    font-family: Lexend, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(225, 225, 225);
+}
+
+
+.title{
+    margin: auto;
+    text-align: center;
+    width: 80%;
+}
+main{
+    border-radius: 15px;
+    width: 75%;
+    height: 500px;
+    max-height: 800px;
+    border: solid 10px #FFC002;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+main form {
+    margin: 5%;
+    width: 90%;
+    height: 90%;
+    display: grid;
+    border-radius: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+}
+.ghost{
+    visibility: hidden;
+}
+label{
+    font-size: 20px;
+    margin: 10px;
+}
+input,select, button{
+    border-radius: 10px;
+    margin: 5px;
+}
+.left{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.right img{
+    height: 90%;
+    width: 90%;
+}
+
+.sol{
+    margin-top: 10px;
+    height: 80%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.sol p{
+    width: 90%;
+}
+.msg{
+    visibility:hidden;
+}
+main form div{
+    background-color: rgb(88, 153, 228);
+    box-shadow:2px 2px 2px rgb(0,0,0,.25);
+
+}
+
+/* ////////////////////////////////Lo que sigue va despues del main (la calculadora)/////////////////////////////// */
+
+.explanation{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    max-width:800px;
+}
+.explanation article{
+    max-width: 800px;
+}
+.card{
+    border-radius: 10px;
+    border: 5px solid #FFC002;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    
+}
+.card p{
+    height: 90%;
+    display: flex;
+    align-items: center;
+}
+.card img{
+    max-height: 200px;
+    margin: 15px;
+}
+
+.cbum{
+    display: flex;
+    margin: auto;
+    height: 400px;
+}
+.tabla-IMC{
+    display: flex;
+    align-self: center;
+    margin: auto;
+    height: 600px;
+}
+
+
+footer{
+    background-color: #FFC002;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
